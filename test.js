@@ -1,3 +1,7 @@
-androidtools = require('./index');
+adt = require('./adt');
 
-androidtools.sayHello();
+adb = adt.adb;
+adb.devices();
+
+fastboot = adt.fastboot;
+fastboot.devices();

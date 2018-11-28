@@ -2,7 +2,7 @@
   "name": "android-tools",
   "version": "1.0.0",
   "description": "android tools",
-  "main": "index.js",
+  "main": "adt.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/RubyDongyu/android-tools/issues"
   },
-  "homepage": "https://github.com/RubyDongyu/android-tools#readme"
+  "homepage": "https://github.com/RubyDongyu/android-tools#readme",
+  "dependencies": {}
 }
